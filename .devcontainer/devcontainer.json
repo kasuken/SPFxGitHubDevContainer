@@ -5,7 +5,7 @@
 	"extensions": [
 		"editorconfig.editorconfig",
 		"dbaeumer.vscode-eslint",
-    "eliostruyf.spfx-essentials"
+    		"eliostruyf.spfx-essentials"
 	],
 	"forwardPorts": [
 		4321,
