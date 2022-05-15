@@ -1,0 +1,26 @@
+{
+	"name": "SPFx 1.14.0",
+	"image": "m365pnp/spfx:1.14.0",
+	"settings": {},
+	"extensions": [
+		"editorconfig.editorconfig",
+		"dbaeumer.vscode-eslint",
+    "eliostruyf.spfx-essentials"
+	],
+	"forwardPorts": [
+		4321,
+		35729
+	],
+	"portsAttributes": {
+		"4321": {
+			"label": "Manifest",
+			"requireLocalPort": true
+		},
+		"35729": {
+			"label": "LiveReload",
+			"requireLocalPort": true
+		}
+	},
+	"postCreateCommand": "bash .devcontainer/spfx-setup-env.sh",
+	"remoteUser": "node"
+}
