@@ -1,6 +1,8 @@
 
 # SPFx GitHub Codespaces Container
 
+![pablo (1)](https://user-images.githubusercontent.com/2757486/168489732-47194480-fd61-4621-9d6b-91119391272b.png)
+
 a devcontainer template to start to develop your SPFx projects using GitHub Codespaces
 
 ## Features
