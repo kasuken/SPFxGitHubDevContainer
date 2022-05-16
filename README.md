@@ -12,9 +12,14 @@ a devcontainer template to start to develop your SPFx projects using GitHub Code
 - SPFx Essential Pack extensions for VS Code
 
 ## How to use it
-Copy the folder .devcontainer in your GitHub repository.
-Launch or create Codespaces from your repo.
-Use the commnand "yo @microsoft/sharepoint" and enjoy your brand new environment up&running in 30 seconds.
+### Method 1
+This repo is a template repo.
+It means you can click on the button "Use this template" at the top of the page and start a new project.
+
+### Method 2
+- Copy the folder .devcontainer in your GitHub repository.
+- Launch or create Codespaces from your repo.
+- Use the commnand "yo @microsoft/sharepoint" and enjoy your brand new environment up&running in 30 seconds.
 
 ## Contributing
 
