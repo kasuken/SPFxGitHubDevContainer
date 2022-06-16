@@ -9,19 +9,12 @@
 	],
 	"forwardPorts": [
 		4321,
-		5432,
 		35729
 	],
 	"portsAttributes": {
 		"4321": {
 			"protocol": "https",
 			"label": "Manifest",
-			"onAutoForward": "silent",
-			"requireLocalPort": true
-		},
-		"5432": {
-			"protocol": "https",
-			"label": "SPFx",
 			"onAutoForward": "silent",
 			"requireLocalPort": true
 		},			
